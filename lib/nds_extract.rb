@@ -89,7 +89,12 @@ def movies_with_directors_set(source)
   
   
   directors_movies = []
-  
+  i = 0 
+  while i < source.length do 
+    
+    i += 1 
+  end
+  return directors_movies
 end
 
 # ----------------    End of Your Code Region --------------------
