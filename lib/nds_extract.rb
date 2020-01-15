@@ -57,7 +57,7 @@ def movies_with_director_key(name, movies_collection)
     i += 1
   end
   
-return movies << "test"
+return movies
 end
 
 
