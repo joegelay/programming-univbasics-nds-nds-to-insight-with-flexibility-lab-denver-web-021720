@@ -57,7 +57,7 @@ def movies_with_director_key(name, movies_collection)
     i += 1
   end
   puts movies
-# return movies
+return movies + 1 
 end
 
 
