@@ -88,15 +88,15 @@ def movies_with_directors_set(source)
   # to have a :director_name key added to it.
   
   
-  directors_movies = []
+  new_directors_movies = []
   i = 0 
   while i < source.length do 
     director_name = source[i][:name]
     directors_movies = source[i][:movies]
-    directors_movies << movies_with_director_key(director_name, directors_movies)
+    new_directors_movies << movies_with_director_key(director_name, directors_movies)
     i += 1 
   end
-  return directors_movies
+  return new_directors_movies
 end
 
 # ----------------    End of Your Code Region --------------------
