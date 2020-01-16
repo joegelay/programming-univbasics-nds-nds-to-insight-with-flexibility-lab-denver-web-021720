@@ -83,7 +83,6 @@ def gross_per_studio(collection)
   return studio_totals
 end
 
-gross_per_studio(directors_database)
 
 def movies_with_directors_set(source)
   # GOAL: For each director, find their :movies Array and stick it in a new Array
