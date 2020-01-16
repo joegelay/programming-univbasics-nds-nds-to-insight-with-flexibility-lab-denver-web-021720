@@ -78,7 +78,7 @@ def gross_per_studio(collection)
   i = 0 
   while i < collection.length do
     studio_totals[:name] = 1
-    i += 0 
+    i += 1
   end 
   return studio_totals
 end
