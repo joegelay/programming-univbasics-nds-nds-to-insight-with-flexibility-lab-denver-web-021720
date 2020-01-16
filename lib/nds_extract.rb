@@ -77,7 +77,7 @@ def gross_per_studio(collection)
   studio_totals = {}
   i = 0 
   while i < collection.length do
-    studio_totals << collection[i]
+    studio_totals[collection[i]] = 1
     i += 0 
   end 
   
