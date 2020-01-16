@@ -78,6 +78,7 @@ def gross_per_studio(collection)
   i = 0 
   while i < collection.length do
     movie = collection[i]
+     studio_totals[movie[:studio]] = 0 
     studio_totals[movie[:studio]] += movie[:worldwide_gross]
     i += 1
   end 
