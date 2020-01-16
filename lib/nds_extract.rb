@@ -78,7 +78,7 @@ def gross_per_studio(collection)
   i = 0 
   while i < collection.length do
     movie = collection[i]
-    studio_totals["Joe"] = 1
+    
     i += 1
   end 
   return studio_totals
